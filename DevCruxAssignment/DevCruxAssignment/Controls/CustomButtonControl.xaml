@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DevCruxAssignment.Controls.CustomButtonControl">
+
+    <Frame x:Name="customBtn" CornerRadius="30">
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="lbl" FontSize="12" TextColor="White"/>
+            <Image x:Name="img" HorizontalOptions="EndAndExpand" WidthRequest="24" HeightRequest="24"/>
+        </StackLayout>
+    </Frame>
+
+</ContentView>

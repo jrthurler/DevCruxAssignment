@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DevCruxAssignment.MainPage"
+             xmlns:c="clr-namespace:DevCruxAssignment.Controls">
+
+    <!--<StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+        <c:CustomButtonControl Text="Hello World!" BackgroundColor="BlueViolet" 
+                               ImageSource="curtir_5.png" 
+                               VerticalOptions="CenterAndExpand" 
+                               HorizontalOptions="CenterAndExpand"
+                               WidthRequest="150" HeightRequest="20"/>
+    </StackLayout>-->
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+        <Frame CornerRadius="30" BackgroundColor="BlueViolet" WidthRequest="120" HeightRequest="15">
+            <StackLayout Orientation="Horizontal" >
+                <Label x:Name="lbl" Text="Hello World" FontSize="14" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+                <Image x:Name="img" Source="curtir_5.png" WidthRequest="24" HeightRequest="24" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+        </Frame>
+
+        <c:CustomButtonControl Text="Hello World!!" 
+                               BackgroundColor="LightCoral"
+                               ImageSource="curtir_5.png" 
+                               VerticalOptions="CenterAndExpand" 
+                               HorizontalOptions="CenterAndExpand"
+                               />
+    </StackLayout>
+
+</ContentPage>
